@@ -28,11 +28,6 @@
   Mission directions
   --------------------------------
 
-  The relevant piece of software is implemented by the enclosed file
-  'libcypher.so', which was obtained only in object form. The Intelligence
-  is informed that this library is a key component of a program referred
-  to as 'decode'.
-
   The intelligence authority is informed that a computer program referred to
   as 'decode' is used by a suspicious organization to obfuscate communication
   between their members. Their security workflow requires that received
