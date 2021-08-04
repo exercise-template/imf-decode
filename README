@@ -74,7 +74,7 @@
   decrypting the files, your mission should be considered accomplished.
 
   For the operation to be successfully, the tactical unity expect to receive
-  a distribution file contained the software components along with a suitably
+  a distribution file containing the software components along with a suitably
   configure automation build system.
 
   Technical details
@@ -115,14 +115,15 @@
 
          decode -d -k <key> <input-file> <output-file>
 
-     where <hey> is the ASCII string used to encrypt the data.
+     where <hey> is the ASCII string used to encrypt the data. We know that
+     both probe files have been obfuscated with the key 'ABC'.
 
      If the program runs successfully, you should be able to access
      the contents of the input file.
 
   5) Attempt to deobufscate crypt2.dat.
 
-     Should you detect a runtime error, our suspect that libcypher.so is
+     Should you detect a runtime error, our suspicion that libcypher.so is
      corrupted will be confirmed.  We do not currently know if this is
      intentional or not, but trusted sources have reported that the problem
      may affect large data files, which is the case of crypt2.dat.  As a hint,
@@ -136,7 +137,7 @@
 
   6) Check the project and deliver it as usual.
 
-     Make sure your automation script buils the software.
+     Make sure your automation script buils the software and the distribtuin tarball.
      Make sure the program is capable of deobfuscate the two probe files.
      
 
